@@ -1,0 +1,10 @@
+[package]
+name = "yew-virtual-scroller-example"
+version = "0.1.0"
+authors = ["James Birtles <jamesb@airca.st>"]
+edition = "2018"
+
+[dependencies]
+yew = "0.17"
+wee_alloc = "0.4"
+yew-virtual-scroller = { path = "../../" }

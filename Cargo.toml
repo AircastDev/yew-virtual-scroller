@@ -1,0 +1,19 @@
+[package]
+name = "yew-virtual-scroller"
+version = "0.1.0"
+authors = ["James Birtles <jamesb@airca.st>"]
+edition = "2018"
+description = "A Yew component for virtual scrolling / scroll windowing"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/AircastDev/yew-virtual-scroller"
+keywords = ["yew", "component", "windowing"]
+categories = ["wasm"]
+
+[dependencies]
+web-sys = { version = "0.3", features = ["Element", "DomRect"] }
+yew = "0.17"
+yew-component-size = "0.1"
+
+[dev-dependencies]
+wee_alloc = "0.4"
